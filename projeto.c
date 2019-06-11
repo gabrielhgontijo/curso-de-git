@@ -6,21 +6,25 @@ int subtracao(int a, int b)
 	int sub_num = a-b;
 	return sub_num;
 }
+
 int soma(int a, int b)
 {
 	int soma_num = a+b;
 	return soma_num;
 }
+
 int multiplicacao(int a, int b)
 {
 	int mult = a*b;
 	return mult;
 }
+
 int divisao(int a, int b)
 {
 	int div = a/b;
 	return div;
 }
+
 int main()
 {
 	printf("Soma dos numeros: %d\n", soma(3,4));
